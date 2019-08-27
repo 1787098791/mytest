@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>hello-apache-dubbo-consumer</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
 
     <inceptionYear>2018-Now</inceptionYear>
