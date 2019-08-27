@@ -12,7 +12,8 @@ import java.util.List;
 @RestController
 public class TestController {
 
-    @Reference(version = "1.0.0",url = "dubbo://localhost:8081",interfaceName = "com.freedom.mytest.provider.api.TestService")
+    //无服务注册与发现中心时需设置提供方dubbo协议的url
+    @Reference(version = "1.0.0",url = "dubbo://localhost:8081")
     private TestService testService;
 
     @RequestMapping("/userinfo")
