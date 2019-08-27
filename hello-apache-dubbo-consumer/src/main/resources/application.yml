@@ -13,5 +13,5 @@ dubbo:
   registry:
     address: N/A
 
-
-
+server:
+  port: 8080
