@@ -1,0 +1,27 @@
+dubbo:
+  scan:
+    base-packages: com.freedom.mytest.provider.service
+  protocol:
+    name: dubbo
+    port: 8081
+  registry:
+      address: N/A
+
+mybatis:
+  # 实体类的存放路径
+  type-aliases-package: com.freedom.mytest.hello.common
+  mapper-locations: classpath:mapper/*.xml
+
+spring:
+  application:
+    name: dubbo-provider
+    main:
+      allow-bean-definition-overriding: true
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-bp16885t0yn5g56gybo.mysql.rds.aliyuncs.com/wujietest?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: Deeptest2018
+
+
