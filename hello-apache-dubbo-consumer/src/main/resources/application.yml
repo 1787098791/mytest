@@ -12,6 +12,8 @@ dubbo:
     port: -1
   registry:
     address: N/A
+  consumer:
+    timeout: 1200000
 
 server:
   port: 8080
