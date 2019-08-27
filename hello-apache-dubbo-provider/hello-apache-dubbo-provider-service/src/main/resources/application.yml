@@ -3,7 +3,7 @@ dubbo:
     base-packages: com.freedom.mytest.provider.service
   protocol:
     name: dubbo
-    port: 8081
+    port: 9000
   registry:
       address: N/A
   provider:

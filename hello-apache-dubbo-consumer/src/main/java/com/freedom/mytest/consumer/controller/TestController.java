@@ -13,7 +13,7 @@ import java.util.List;
 public class TestController {
 
     //无服务注册与发现中心时需设置提供方dubbo协议的url
-    @Reference(version = "1.0.0",url = "dubbo://localhost:8081")
+    @Reference(version = "1.0.0",url = "dubbo://localhost:9000")
     private TestService testService;
 
     @RequestMapping("/userinfo")
