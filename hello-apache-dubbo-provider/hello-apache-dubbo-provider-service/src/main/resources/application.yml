@@ -6,6 +6,8 @@ dubbo:
     port: 8081
   registry:
       address: N/A
+  provider:
+    timeout: 1200000
 
 mybatis:
   # 实体类的存放路径
