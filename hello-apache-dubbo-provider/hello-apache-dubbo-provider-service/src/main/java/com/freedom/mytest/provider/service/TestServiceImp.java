@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 
-@Service(version = "1.0.0",interfaceName = "com.freedom.mytest.provider.api.TestService")
+@Service(version = "1.0.0")
 public class TestServiceImp implements TestService {
     @Resource
     private UserInfoMapper userInfoMapper;
