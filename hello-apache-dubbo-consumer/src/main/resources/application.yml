@@ -13,6 +13,7 @@ dubbo:
   registry:
     address: N/A
   consumer:
+    #设置超时时间，默认500ms,时间太短会出现dubbo的timeoutexception
     timeout: 1200000
 
 server:
